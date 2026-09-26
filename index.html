@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+
+        Full Name:
+        <input type="text" name="fullname" required>
+        <br><br>
+
+        Email:
+        <input type="email" name="email" required>
+        <br><br>
+
+        Password:
+        <input type="password" name="password" required>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        Interests:
+        <input type="checkbox" name="interest" value="technology"> Technology
+        <input type="checkbox" name="interest" value="sports"> Sports
+        <input type="checkbox" name="interest" value="music"> Music
+        <br><br>
+
+        Country:
+        <select name="country" required>
+            <option value="">Select Country</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select>
+        <br><br>
+
+        Message:
+        <br>
+        <textarea name="message" rows="5" cols="30" required></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
